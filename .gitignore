@@ -1,0 +1,22 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies, generated output and caches
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+playwright-report/
+test-results/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
